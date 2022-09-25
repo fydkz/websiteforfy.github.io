@@ -1,4 +1,4 @@
-// alert("pppp")
+alert("pppp")
 var nama = prompt("masukan nama")
 
 
