@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <link rel="stylesheet" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <!-- navbar  -->
+        <div class="navbar-fixed">
+            <nav class="blue-grey darken-4">
+                <div class="container">
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">DIKFA</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="halaman2.html">special</a></li>
+                  <li><a href="https://open.spotify.com/playlist/4BAyKXNHhRK5SqsYtsqvsS?si=0057ed5878a24bb7" target="_blank">spotify</a></li>
+                  <li><a href="https://telegra.ph/about-faya-my-girlfriend-09-25" target="_blank">about</a></li>
+                </ul>
+              </div>
+            </div>
+            </nav>
+          </div>
+
+          <ul class="sidenav" id="mobile-nav">
+            <li><a href="halaman2.html">special</a></li>
+            <li><a href="https://open.spotify.com/playlist/4BAyKXNHhRK5SqsYtsqvsS?si=0057ed5878a24bb7" target="_blank">spotify</a></li>
+            <li><a href="https://telegra.ph/about-faya-my-girlfriend-09-25" target="_blank">about</a></li>
+          </ul>
+
+          <!-- sidear  -->
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/slider/ft1.png"> 
+                <div class="caption left-align">
+                  <h3>website for my girlfriend</h3>
+                  <h5 class="light grey-text text-lighten-3">my queen, my life, my world, my love, my everything <3333</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/slider/ft2.png"> 
+                <div class="caption right-align">
+                  <h3>A gift for you</h3>
+                  <h5 class="light grey-text text-lighten-3">I hope you like this gift</h5>
+                </div>
+              </li>
+           </ul>
+        </div>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <h3 class="center light grey-text text-darken-3">HAI</h3>
+                    <div class="col s12 light">
+                        <p class="paragraf">i made this little special thing for you to remember on your special day, and i hope it can be a memory you won’t forget. made this for you, and only you with my love, and deep inside my heart. maybe you don’t have any idea how much i adore you, till i spent my nights working on this little gift, and wondering such a wide smile you have when you see it, i hope you will.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/slider/dikfa.jpeg"></div>
+            
+            <div class="container clients">
+                <h3 class="center light white-text">dikfa</h3>
+            </div>
+          </div>
+
+
+          <section id="portofolio" class="portofolio">
+            <div class="container">
+              <h3 class="light center grey-text text-darken-3">awards</h3>
+              <div class="row">
+                <div class="col m4 s12">
+                  <img src="img/portfolio/AWARD.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m4 s12">
+                  <img src="img/portfolio/patrik.jpg" class="responsive-img materialboxed">
+                </div>
+                <div class="col m4 s12">
+                  <img src="img/portfolio/award.jpg" class="responsive-img materialboxed">
+                </div>
+              </div>
+            </div>
+          </section>
+ 
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+           indicators: false,
+           height: 500,
+           transition: 600,
+           interval:3000
+        });
+
+        const parallax = document.querySelectorAll('.parallax')
+        M.Parallax.init(parallax);
+
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
+      </script>
+    </body>
+  </html>
