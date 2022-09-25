@@ -3,8 +3,8 @@
 /* balloon */
 
 body{
-    background-image:linear-gradient(#16213E,#607EAA,#FFB5B5,#FE91CA ,#B063C5);
-    height: 1590px;
+    background-color: wheat;
+    height: auto;
 }
 span {
     text-transform: uppercase;
@@ -19,7 +19,6 @@ span {
     background-image: -o-radial-gradient(#b2c8df, #6e85b7, #395B64);
     background-image: radial-gradient(#b2c8df, #6e85b7, #395B64); */
     width: 1310px;
-    height: 500px;
     padding: 10px;
     margin: auto;
     position: relative;
@@ -304,20 +303,11 @@ span {
     border-radius: 30px;
 }
 
-
-.sapi {
-    min-height: 500px ;
-    width: auto;
-}
-
 .special, .gambar1 img{
     width: 500px;
-    margin-left: 800px;
+    margin-left: 500px;
 }
 
-.special, .gambar2 img{
-    position: absolute;
-    top: 500px;
-    width: 500px;
-    margin-left: 30px;
+paragraf{
+    text-align: center;
 }

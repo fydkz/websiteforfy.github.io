@@ -1,5 +1,5 @@
-alert("pppp")
-var nama = prompt("masukan nama")
+// alert("pppp")
+// var nama = prompt("masukan nama")
 
 
 
